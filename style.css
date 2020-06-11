@@ -1,0 +1,87 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#EEE;
+    font-family: 'roboto', sans-serif ;
+}
+
+
+
+h1{
+    text-align: center;
+}
+span{
+    color: black;
+    font-weight: bold;
+}
+#png{
+    width: 60px;
+    height: 39px;
+}
+.blog{
+    width: 325px;
+    text-align: center;
+    background: #ffffff;
+    padding: 40px;
+    margin: 45px;
+    display: inline-block;
+    animation-name: jubaer;
+    animation-duration: all 1s;
+    transition: all 1s;
+    border: 1px solid #ddd;
+}
+.blog img{
+   margin-top: 1px;
+   margin-bottom: 10px;
+}
+.blog h4{
+    padding: 5px;
+    color: black;
+}
+.blog p{
+    color: #888;
+}
+.blog:hover{
+    
+   background-color: #ddd;
+   transform: scale(0.8);
+   cursor: pointer;
+   box-shadow: 5px 10px 20px 1px black;
+}
+
+#section{
+    background-color: #0000006b;
+}
+
+@keyframes jubaer{
+    frome{transform: scale(0.1);}
+    to{transform: scale(1.5);}
+}
+
+#h{
+    text-align: center;
+    margin-right: 650px;
+    float: left;
+}
+#ab{
+    display: inline-block;
+}
+.image{
+    float: right;
+    padding-bottom: 700px;
+}
+.cc{
+    background-color: #EEE;
+}
+.contact{
+    background-color: #86745433;
+    text-align: center;
+}
+
