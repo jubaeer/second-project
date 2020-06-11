@@ -39,7 +39,7 @@ span{
 }
 .blog img{
    margin-top: 1px;
-   margin-top: auto;
+   margin: auto;
    margin-bottom: 10px;
 }
 .blog h4{
